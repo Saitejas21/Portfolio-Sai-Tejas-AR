@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.shadow-mild {
+  box-shadow: inset 0 0 0 1px #dae4ed, 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.min-h-250 {
+  min-height: 250px;
+}
+
+.bg-gray-850 {
+  background-color: #242b3a;
+}
+
+.bg-gradient-neon {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.bg-gradient-frozen:hover {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.anime-gradientText-dark {
+  transition: 0.1s;
+}
+.anime-gradientText-dark {
+  background: linear-gradient(90deg, #f9b4d6, #ff9280);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.anime-gradientText-dark-nohover {
+  background: linear-gradient(90deg, #f9b4d6, #ff9280);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.anime-gradientText-dark:hover {
+  border-bottom: 1px solid #f9b4d6 !important;
+  padding-bottom: 1px;
+}
+
+.tag-design {
+  /* background: #fff5f5; */
+  background: #333a4a;
+  color: #fc8181;
+}
+.tag-tutorial {
+  /* background: #f0fff4; */
+  background: #333a4a;
+  color: #68d391;
+}
+.tag-random {
+  /* background: #ebf4ff; */
+  background: #333a4a;
+  color: #7f9cf5;
+}
+.tag-life {
+  /* background: #faf5ff; */
+  background: #333a4a;
+  color: #b794f4;
+}
+.tag-notes {
+  /* background: #ebf8ff; */
+  background: #333a4a;
+  color: #63b3ed;
+}
+
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  color: white;
+}
+
+.article a {
+  text-decoration: underline;
+  color: #cee4ab;
+}
+.article a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.article p,
+.article ul,
+.article img {
+  margin-bottom: 1.25rem;
+}
+
+.article li {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+
+.article pre {
+  padding: 0 0.5rem;
+  background-color: #2b303b;
+  border-radius: 4px;
+  font-size: 80%;
+  margin-bottom: 1.25rem;
+}
+
+.article p code {
+  color: #c67aff;
+  background-color: #373e4c;
+  /* box-shadow: 0 0 0 1px #725488; */
+  border-radius: 2px;
+  font-size: 0.875rem;
+  padding: 2px 4px;
+}
